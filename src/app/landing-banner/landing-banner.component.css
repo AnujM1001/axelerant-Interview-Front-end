@@ -1,0 +1,54 @@
+.landing-page-container {
+    background-image: URL(../../assets//images/landing-page-bg.png)
+}
+
+.landing-page-container section {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing-page-container section h1 {
+    font-weight: 500;
+    width: 80%;
+    font-size: 30px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.landing-page-container .service-menu {
+    display: block;
+    padding: 0;
+}
+
+.landing-page-container .service-menu li {
+    display: inline-block;
+    border: 1px solid #3e3c38;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.landing-page-container .service-menu li img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .landing-page-container .service-menu li {
+        width: 80%;
+        text-align: left;
+        padding: 15px;
+    }
+    .landing-page-container .service-menu li img {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 15px;
+    }
+}

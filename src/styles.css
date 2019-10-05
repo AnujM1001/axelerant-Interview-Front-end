@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+body,
+body * {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.primary-buttton {
+    background: #ee3b00;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 0;
+    padding: 10px 28px;
+    color: #fff;
+    text-transform: capitalize;
+}

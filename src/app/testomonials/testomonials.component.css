@@ -1,0 +1,86 @@
+.testimonials-container {
+    padding: 85px;
+    background: #f7f7f7;
+}
+
+.testimonials-container h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.testimonials-container .testimonials .testimonial {
+    display: inline-block;
+    width: 25%;
+    margin: 0 50px;
+    vertical-align: top;
+    min-width: 340px;
+}
+
+.testimonials-container .testimonials .testimonial div.testimonial-text {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.testimonials-container .testimonials .testimonial div.testimonial-text img.pointer {
+    position: absolute;
+    top: 100%;
+}
+
+.testimonials-container .testimonials .testimonial div.testimonial-text img.quotes {
+    position: absolute;
+    left: 30px;
+    top: 35px;
+}
+
+.testimonials-container .testimonials .testimonial div.client-information img.client-image {
+    margin-left: 35px;
+}
+
+.testimonials-container .testimonials .testimonial div.client-information div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.testimonials-container .testimonials .testimonial div.client-information div span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.testimonials-container .testimonials .testimonial div.client-information div span.client-name {
+    color: #4a4242;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.testimonials-container .testimonials .testimonial div.client-information div span.client-position {
+    color: #a79a97;
+}
+
+@media screen and (max-width: 1510px) {
+    .testimonials-container .testimonials .testimonial {
+        min-width: 860px;
+        margin: 0 auto 40px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .testimonials-container {
+        padding: 30px;
+    }
+    .testimonials-container .testimonials .testimonial {
+        min-width: 360px;
+        margin: 0 auto 40px;
+        display: block;
+    }
+    .testimonials-container .testimonials .testimonial div.client-information img.client-image {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,65 @@
+.connect-with-us-container {
+  background-image: url(../../assets/images/conecct-with-us-background.png);
+  padding: 85px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.connect-with-us-container h2,
+.connect-with-us-container h3 {
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.connect-with-us-container form input,
+.connect-with-us-container form textarea {
+  border: 1px solid #d0d1d1;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.connect-with-us-container form {
+  text-align: center;
+}
+
+.connect-with-us-container form input.small-input {
+  width: 20%;
+  margin: 0 10px;
+  height: 40px;
+}
+
+.connect-with-us-container form .large-input {
+  width: calc(60% + 60px);
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.connect-with-us-container form .submit-button {
+  display: block;
+  margin: 20px auto 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .connect-with-us-container {
+    padding: 30px;
+  }
+  .connect-with-us-container form {
+    margin-top: 30px;
+  }
+  .connect-with-us-container form input.small-input {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .connect-with-us-container form .large-input {
+    width: 90%;
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,11 @@
+<article>
+    <header>
+        <div class="menu-icon">
+            <img src="assets/images/hamburger-menu-icon.png" alt="" (click)="showMenu = !showMenu">
+        </div>
+        <div class="company-logo">
+            <img src="assets/images/company-logo.png" alt="company logo">
+        </div>
+        <app-navigation-menu [menuVisibiltySetter]="showMenu"></app-navigation-menu>
+    </header>
+</article>

@@ -1,0 +1,41 @@
+.about-us-container {
+    padding: 80px 100px;
+}
+
+.about-us-container .map-image,
+.about-us-container .about-us-heading {
+    width: 40%;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+.about-us-container .map-image {
+    margin-right: 0;
+    vertical-align: top;
+}
+
+.about-us-container .map-image img {
+    width: 100%;
+}
+
+.about-us-container .about-us-heading p {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .about-us-container {
+        padding: 30px;
+    }
+    .about-us-container .map-image,
+    .about-us-container .about-us-heading {
+        width: 100%;
+        margin-right: 0;
+    }
+    .about-us-container .about-us-heading h3 {
+        font-size: 30px;
+    }
+    .about-us-container .about-us-heading p {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
